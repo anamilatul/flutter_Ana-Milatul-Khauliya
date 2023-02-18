@@ -22,33 +22,33 @@ Github yaitu git server yang menampung repository atau project yang kita buat.
 - Pull request : Mengusulkan suatu perubahan pada repository ke pemilik/pemimpin project. Lalu, ia berhak menerima atau menolak usulan tersebut.
 
 ## Saving Changes
-- GIT STATUS, ADD, COMMIT
-$ git status
-$ git add <directory>
-$ git add .
-$ git commit -m "initial commit"
+#### GIT STATUS, ADD, COMMIT
+- $ git status
+- $ git add .
+- $ git commit -m "initial commit"
 
-- GIT DIFF, STASH
-$ git diff --staged
-$ git stash (for stashing your work)
-$ git stash apply (re-applying stashed changes)
+#### GIT DIFF, STASH
+- $ git diff --staged
+- $ git stash (for stashing your work)
+- $ git stash apply (re-applying stashed changes)
 
 ## Inspecting Repository
-- GIT LOG, CHECKOUT
-$ git log --oneline
-$ git checkout a23k32
-- GIT RESET
-$ git reset a23k32
+#### GIT LOG, CHECKOUT
+- $ git log --oneline
+- $ git checkout a23k32
+
+#### GIT RESET
+- $ git reset a23k32
 
 ## Syncing
-- GIT PUSH, FETCH & PULL
-$ git fetch
-$ git pull origin master
-$ git push origin master
+#### GIT PUSH, FETCH & PULL
+- $ git fetch
+- $ git pull origin master
+- $ git push origin master
 
 ## Branches
-- GIT BRANCHING
-$ git branch --list
-$ git branch <branch>
-- GIT MERGE
-$ git merge new-feature
+#### GIT BRANCHING
+- $ git branch --list
+- $ git branch <branch>
+#### GIT MERGE
+- $ git merge new-feature
