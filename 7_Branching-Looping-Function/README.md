@@ -85,7 +85,7 @@ void main(){
 ```
 
 ### Fungsi dengan parameter
-Mengirim data saat menjalankan fungsi
+Mengirim data saat menjalankan fungsi. 
 Cara penulisan :
 ```
 tipe_data nama_fungsi(tipe_data nama_parameter){
@@ -94,7 +94,7 @@ tipe_data nama_fungsi(tipe_data nama_parameter){
 ```
 
 ### Fungsi dengan return
-Memberi nilai pada fungsi saat dipanggil
+Memberi nilai pada fungsi saat dipanggil. 
 Cara penulisan :
 ```
 tipe_data nama_fungsi(tipe_data nama_parameter){
