@@ -24,8 +24,7 @@ void main() {
 }
 ```
 ## Looping
-Perulangan (looping) adalah suatu bentuk kontrol program yang memungkinkan kita mengulang eksekusi program selama kondisi masih terpenuhi.
-Jadi bisa menjalankan proses berulang kali
+Perulangan (looping) adalah suatu bentuk kontrol program yang memungkinkan kita mengulang eksekusi program selama kondisi masih terpenuhi. Jadi bisa menjalankan proses berulang kali.
 ### For
 - Diketahui berapa kali perulangan terjadi
 - Memerlukan nilai awal
@@ -54,7 +53,7 @@ void main() {
 
 ### Do-While
 - Mengubah bentuk while
-- Proses dijalankan minimum seklai, akan diteruskan jika nilai bool adalah true
+- Proses dijalankan minimum sekali, akan diteruskan jika nilai bool adalah true
 ```
 void main() {
   var i = 0;
