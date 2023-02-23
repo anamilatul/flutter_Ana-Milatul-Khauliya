@@ -7,5 +7,5 @@ void luasLingkaran(double jariJari) {
   double phi, luas;
   phi = 3.14;
   luas = phi * jariJari * jariJari;
-  print("Luas lingkaran dengan $jariJari adalah $luas");
+  print("Luas lingkaran dengan jari jari $jariJari adalah $luas");
 }
