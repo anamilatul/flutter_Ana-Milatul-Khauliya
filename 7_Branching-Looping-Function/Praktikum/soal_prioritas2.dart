@@ -23,7 +23,7 @@ void faktorial(int bilBulat) {
 
 void polaJamPasir() {
   int tinggiPola = 6;
-  for (var i = 1; i <= (tinggiPola); i++) {
+  for (var i = 1; i <= tinggiPola; i++) {
     for (var j = 1; j < i; j++) {
       stdout.write(" ");
     }
