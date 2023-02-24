@@ -8,6 +8,7 @@ void main() {
   faktorial(50);
 }
 
+//SoalPrioritas2_3
 void faktorial(int bilBulat) {
   double fakt = 1;
   if (bilBulat < 0) {
@@ -21,6 +22,7 @@ void faktorial(int bilBulat) {
   }
 }
 
+//SoalPrioritas2_2
 void polaJamPasir() {
   int tinggiPola = 6;
   for (var i = 1; i <= tinggiPola; i++) {
@@ -43,6 +45,7 @@ void polaJamPasir() {
   }
 }
 
+//SoalPrioritas2_1
 void piramidBintang() {
   for (var i = 0; i <= 8; i++) {
     for (var j = 7; j >= i; j--) {
