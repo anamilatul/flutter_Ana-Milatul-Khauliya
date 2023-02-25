@@ -1,5 +1,6 @@
 import 'dart:io';
 
+//Soal Eksplorasi 1
 void main() {
   stdout.write("Masukkan bilangan yang ingin dicek : ");
   int bil = int.parse(stdin.readLineSync()!);
