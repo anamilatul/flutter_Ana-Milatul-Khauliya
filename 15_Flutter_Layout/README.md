@@ -19,8 +19,8 @@ Container(
 Center biasa digunakan untuk membuat sebuah box, membungkus widget lain, memenuhi lebar dan tinggi ruang di luarnya, dan meletakkan widget berada di bagian tengah.
 ```
 Center(
-    child : Text(teks);
-)
+    child : Text(teks),
+);
 ```
 #### SizedBox
 SizedBox digunakan untuk membuat sebuah bos, membungkus widget lain. Lebar dan tinggi box dapat diatur. SizedBox lebih sederhana dibanding dengan container.
@@ -29,7 +29,7 @@ SizedBox(
     width : 50,
     height: 67,
     child : Text(teks),
-)
+);
 ```
 ### Multi-child Layout
 #### Column
