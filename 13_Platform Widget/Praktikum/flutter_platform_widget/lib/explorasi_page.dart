@@ -44,7 +44,7 @@ class Explorasi extends StatelessWidget {
           }),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        backgroundColor: Color(0xff03DAC5),
+        backgroundColor: const Color(0xff03DAC5),
         child: const Icon(
           Icons.add,
           color: Colors.black,
@@ -57,7 +57,7 @@ class Explorasi extends StatelessWidget {
           items: const [
             BottomNavigationBarItem(
               icon: Icon(Icons.favorite),
-              label: 'Favorit',
+              label: 'Favorites',
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.search),
