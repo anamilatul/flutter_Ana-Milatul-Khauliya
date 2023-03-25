@@ -57,7 +57,7 @@ Checkbox(
 
 ## Button
 Button bersifat seperti tombol yang dapat melakukan sesuatu ketika ditekan.
-### ElevateButton
+### ElevatedButton
 - Tombol yang timbul
 - Jika ditekan, akan menjalankan onPressed
 ```
