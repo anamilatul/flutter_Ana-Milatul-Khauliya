@@ -15,6 +15,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+  //Untuk MaterialApp
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -24,11 +25,10 @@ class MyApp extends StatelessWidget {
     );
   }
 
-  //buat cupertinoApp
+  // //Untuk cupertinoApp
   // @override
   // Widget build(BuildContext context) {
   //   return const CupertinoApp(
-  //     debugShowCheckedModeBanner: false,
   //     home: IosDesign(),
   //   );
   // }
