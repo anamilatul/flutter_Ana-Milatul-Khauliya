@@ -1,0 +1,4 @@
+### Soal Prioritas 2 (20)
+
+1. Modifikasi navigasi aplikasi yang telah dibuat dengan menggunakan routes.
+2. hubungkan setiap halaman yang telah kalian buat sampai sekarang dengan navigation di flutter.
