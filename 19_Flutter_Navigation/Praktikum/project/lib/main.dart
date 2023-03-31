@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.amber),
-      title: 'Flutter Assets, Dialog Bottom Sheet, Navigation',
+      title: 'Flutter Project',
       initialRoute: '/',
       routes: {
         '/': (context) => const Home(),
