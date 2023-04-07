@@ -61,7 +61,7 @@ class _AddImagePageState extends State<AddImagePage> {
                     _image!,
                     fit: BoxFit.cover,
                   ),
-            SizedBox(height: 16.0),
+            const SizedBox(height: 16.0),
             ElevatedButton(
               onPressed: () async {
                 if (_formKey.currentState!.validate()) {

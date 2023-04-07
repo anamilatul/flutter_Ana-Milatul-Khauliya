@@ -79,13 +79,26 @@ class GridPage extends StatelessWidget {
                                     ),
                                     TextButton(
                                       onPressed: () {
-                                        Navigator.push(
-                                          context,
-                                          MaterialPageRoute(
-                                            builder: (context) => DetailPage(
-                                              imagePath:
-                                                  images[index].imagePath,
-                                            ),
+                                        Navigator.of(context).push(
+                                          PageRouteBuilder(
+                                            pageBuilder: (context, animation,
+                                                secondaryAnimation) {
+                                              return DetailPage(
+                                                imagePath:
+                                                    images[index].imagePath,
+                                              );
+                                            },
+                                            transitionsBuilder: (context,
+                                                animation,
+                                                secondaryAnimation,
+                                                child) {
+                                              final tween =
+                                                  Tween(begin: 0.0, end: 1.0);
+                                              return FadeTransition(
+                                                opacity: animation.drive(tween),
+                                                child: child,
+                                              );
+                                            },
                                           ),
                                         );
                                       },
@@ -168,8 +181,21 @@ class GridPage extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          Navigator.push(context,
-              MaterialPageRoute(builder: (context) => const AddImagePage()));
+          Navigator.of(context).push(
+            PageRouteBuilder(
+              pageBuilder: (context, animation, secondaryAnimation) {
+                return const AddImagePage();
+              },
+              transitionsBuilder:
+                  (context, animation, secondaryAnimation, child) {
+                final tween = Tween(begin: 0.2, end: 1.0);
+                return FadeTransition(
+                  opacity: animation.drive(tween),
+                  child: child,
+                );
+              },
+            ),
+          );
         },
         tooltip: 'Add Image',
         child: const Icon(
