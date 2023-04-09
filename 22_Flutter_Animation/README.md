@@ -4,7 +4,7 @@
 Menambahkan animasi membuat aplikasi terlihat hidup. Widget yang bergerak bisa menambah daya tarik. Bisa juga menerapkan pergerakan animasi dari kondisi A ke kondisi B.
 ## Implicit Animation
 Animasi ini merupakan versi animasi dari widget yang sudah ada.
-Jika tanpa animation maka perubahan ukuran container tampak kaku. Tetapi jika edngan animation maka tampilan bisa menjadi lebih hidup dan nyaman dilihat.
+Jika tanpa animation maka perubahan ukuran container tampak kaku. Tetapi jika dengan animation maka tampilan bisa menjadi lebih hidup dan nyaman dilihat.
 ## Transition
 Transition merupakan animasi yang terjadi saat perpindahan halaman. Dilakukan pada bagian `Navigator.push()`
 ```
