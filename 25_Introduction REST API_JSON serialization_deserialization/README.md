@@ -39,7 +39,6 @@ void main() {
 ```
 ## Serialisasi JSON
 JSON (Javascript Object Notation) yang umum digunakan pada API. Cara penulisan data dalam bentuk key-value. Serialisasi JSON yaitu mengubah struktur data ke bentuk JSON.
-    `Map/List -> Serialisasi -> JSON`
 Serialisasi JSON dengan menggunakan fungsi `jsonEncode` dari package `dart:convert`
 ## Deserialisasi JSON
 Deserialisasi JSON yaitu mengubah bentuk JSON ke struktur data. Menggunakan fungsi `jsonDecode` dari package `dart:convert`.
