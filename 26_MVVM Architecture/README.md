@@ -14,4 +14,4 @@ MVVM (Model-View ViewModel) yaitu memisahkan logic dengan tampilan(View) ke dala
 ## Model
 Model yaitu bentuk data yang akan digunakan, dibuat dalam bentuk class. Data-data yang dimuat, diletakkan pada property
 ## ViewModel
-ViewModel menyimpan data-data dan logic yang diperlukan halaman ContactScreen. Jika widget lain memerlukan logic yang sama, dapat menggunakan ViewModel ini juga.
+ViewModel menyimpan data-data dan logic yang diperlukan. Jika widget lain memerlukan logic yang sama, dapat menggunakan ViewModel ini juga.
