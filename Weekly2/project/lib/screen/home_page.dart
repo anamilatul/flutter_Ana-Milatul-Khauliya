@@ -126,11 +126,12 @@ class _HomePageState extends State<HomePage> {
                   height: 10,
                 ),
                 const Text(
-                  'Escoot Product Recomendation',
+                  '\t\tWe provide various types of quality electric scooters at affordable prices. In addition, we also provide good after-sales service to ensure customer satisfaction.',
                   style: TextStyle(
-                    fontWeight: FontWeight.w500,
-                    fontSize: 16,
+                    fontWeight: FontWeight.w400,
+                    fontSize: 15,
                   ),
+                  textAlign: TextAlign.justify,
                 ),
                 const SizedBox(
                   height: 20,
